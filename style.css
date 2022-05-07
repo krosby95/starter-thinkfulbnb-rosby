@@ -127,10 +127,10 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 600px) {
+@media all and (min-width: 480px) {
   header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     padding: 0 30px;
   }
@@ -138,6 +138,16 @@ footer p {
   header nav {
 padding: 12px;
   }
+
+  p {
+    font-size: 20px;
+  }
+
+  ul {
+    font-size: 19px;
+  }
+
+  
 
   header nav ul li a:hover {
     color: #bdbdbd;
@@ -166,7 +176,7 @@ padding: 12px;
   , .item select
   , .item button{
     display:flex;
-    width: 100%
+    width: 100%;
   }
 
   .grid-column {
