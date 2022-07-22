@@ -140,7 +140,7 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width:611px){
+@media all and (min-width:800px){
   form {
     flex-direction: row; 
   }
