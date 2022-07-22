@@ -27,7 +27,7 @@ section {
 
 section.alternate-background {
   background-color: #00a699;
-  color: #fff;
+  color: white;
 }
 
 main img {
@@ -79,6 +79,10 @@ header nav ul li a {
   padding: 0 20px 0 0;
 }
 
+header nav ul li:last-child a {
+  margin-right: 20px;
+}
+
 header nav ul li a:hover {
   color: #bdbdbd;
   text-decoration: none;
@@ -90,7 +94,7 @@ form {
   flex-direction: column;
   justify-content: space-between;
   border: 2px solid #ff385c;
-  padding: 4px;
+  padding: 10px;
 }
 
 form label {
@@ -100,7 +104,7 @@ form label {
 form select,
 form input {
   margin-bottom: 20px;
-  width: 50%;
+  width: 65%;
   float: right;
 }
 
@@ -127,62 +131,60 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width: 650px) {
+/*@media all and (min-width: 800px) {
+  .vacation-form .item {
+    display: flex block;
+    flex: 1 1 auto;
+    flex-direction: column;*/
+
+
+/* -------  Media Query ------- */
+
+@media all and (min-width:611px){
+  form {
+    flex-direction: row; 
+  }
+}
+
+@media all and (min-width: 480px) {
   header {
+    background-color: #ff385c;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 0 30px;
   }
 
   header nav {
-padding: 12px;
+    padding: 10px;
   }
 
-  p {
-    font-size: 23px;
-  }
-
-  ul {
-    font-size: 20px;
-  }
-
-  
-
-  header nav ul li a:hover {
-    color: #bdbdbd;
-  }
-
-  form {
-    flex-direction: row;
-  }
 
   .group {
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     flex-flow: row nowrap;
     align-items: center;
   }
 
-  .vacation-form .item{
+ .vacation-form .item {
     display: flex block;
     flex: 1 1 auto;
     flex-direction: column;
   }
 
   .item label
-  , .item input
-  , .item select
+  , .item input 
+  , .item select 
   , .item button{
-    display:flex;
-    width: 100%;
+    display: flex;
+    width: 100%
   }
 
   .grid-column {
     display: flex;
     flex: 1;
-    flex-direction: column;
+    flex-direction: column; 
     margin: 10px;
   }
 
