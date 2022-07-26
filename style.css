@@ -105,7 +105,7 @@ form select,
 form input {
   margin-bottom: 20px;
   width: 65%;
-  float: right;
+  flex: right;
 }
 
 form button {
@@ -140,11 +140,11 @@ footer p {
 
 /* -------  Media Query ------- */
 
-@media all and (min-width:800px){
+/*@media all and (min-width:800px){
   form {
     flex-direction: row; 
   }
-}
+}*/
 
 @media all and (min-width: 480px) {
   header {
