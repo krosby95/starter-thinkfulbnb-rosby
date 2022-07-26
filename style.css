@@ -153,6 +153,10 @@ footer p {
     flex-direction: row;
     justify-content: space-between;
   }
+  
+  form {
+    flex-direction: row; 
+  }
 
   header nav {
     padding: 10px;
