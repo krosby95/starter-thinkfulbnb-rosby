@@ -140,11 +140,11 @@ footer p {
 
 /* -------  Media Query ------- */
 
-/*@media all and (min-width:800px){
+@media all and (min-width:800px){
   form {
     flex-direction: row; 
   }
-}*/
+}
 
 @media all and (min-width: 480px) {
   header {
@@ -152,10 +152,6 @@ footer p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-  
-  form {
-    flex-direction: row; 
   }
 
   header nav {
